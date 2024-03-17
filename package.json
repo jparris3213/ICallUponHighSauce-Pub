@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "icalluponhighsauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jparris3213/ICallUponHighSauce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jparris3213/ICallUponHighSauce/issues"
+  },
+  "homepage": "https://github.com/jparris3213/ICallUponHighSauce#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-cmd": "^10.1.0",
+    "puppeteer": "^22.3.0"
+  },
+  "devDependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
